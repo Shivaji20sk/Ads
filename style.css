@@ -1,21 +1,4 @@
-<!-- 
-    File: advanced_blogger_ads.html
-    Description: Blogger के लिए उन्नत (Advanced) रैंडम 2 Ad जनरेटर।
-    यह कोड ad-injector1 और ad-injector2 IDs का उपयोग करके 2 यूनिक Ad दिखाता है,
-    और Font Awesome icons (fab fa) और आकर्षक CSS का उपयोग करता है।
-    
-    ज़रूरी: इस कोड को Blogger में एक HTML/JavaScript Gadget में पेस्ट करें।
-    यह Gadget उन स्थानों पर होना चाहिए जहाँ ad-injector1 और ad-injector2 मौजूद हैं, 
-    या यह Gadget स्वयं ही दोनों IDs को बनाएगा और content inject करेगा।
--->
-
-<head>
-    <!-- Font Awesome CDN: Icons के लिए जरूरी -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" xintegrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroP89YkiBdvKqH1z19eLg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-
-<style>
-    /* Global Ad Styling */
+  /* Global Ad Styling */
     .ad-container {
         display: flex;
         flex-direction: column; /* मोबाइल पर स्टैक */
@@ -124,5 +107,3 @@
             max-width: 48%;
         }
     }
-</style>
-
